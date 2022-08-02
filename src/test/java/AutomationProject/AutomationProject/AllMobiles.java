@@ -13,5 +13,7 @@ public void allmobiles() {
 	driver.get("https://mobileworld.azurewebsites.net/");
 	driver.findElement(By.xpath("//a[text()='All Mobiles']")).click();
 	driver.findElement(By.id("myInput")).sendKeys("iphone");
+	driver.findElement(By.xpath("(//a[text()='Order'])[4]")).click();
+	
 }
 }
