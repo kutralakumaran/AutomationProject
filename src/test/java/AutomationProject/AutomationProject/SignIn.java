@@ -14,10 +14,7 @@ public void signin() {
 	driver.findElement(By.xpath("//button[text()='SIGN IN']")).click();
 	driver.findElement(By.id("username")).sendKeys("abcd@gmail.com");
 	driver.findElement(By.name("password")).sendKeys("abcdefg");
-	driver.findElement(By.xpath("//a[text()='Log In']")).click();
-	System.out.println();
-
-	
-	
+	driver.findElement(By.xpath("//a[text()='Log In']")).click();	
+	driver.close();
 }
 }
