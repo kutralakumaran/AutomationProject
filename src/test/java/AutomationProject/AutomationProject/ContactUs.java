@@ -1,6 +1,9 @@
 package AutomationProject.AutomationProject;
 
 import org.testng.annotations.Test;
+
+import dProvider.Cont;
+
 import java.util.Iterator;
 import java.util.Set;
 
@@ -11,8 +14,8 @@ import org.testng.annotations.Test;
 
 public class ContactUs {
 	
-@Test
-public void Contact() {
+@Test(dataProvider = "contact",dataProviderClass = Cont.class)
+public void Contact(String name,String email,String mobile,String message) {
 	System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://mobileworld.azurewebsites.net/");
@@ -23,10 +26,10 @@ public void Contact() {
 	String parent = win.next();
 	String child = win.next();
     driver.switchTo().window(child);
-    driver.findElement(By.name("name")).sendKeys("abcd");
-    driver.findElement(By.name("email")).sendKeys("abcd@gmail.com");
-    driver.findElement(By.name("phone")).sendKeys("9865098650");
-    driver.findElement(By.name("message")).sendKeys("abcdefgh");
+    driver.findElement(By.name("name")).sendKeys(name);
+    driver.findElement(By.name("email")).sendKeys(email);
+    driver.findElement(By.name("phone")).sendKeys(mobile);
+    driver.findElement(By.name("message")).sendKeys(message);
     driver.findElement(By.xpath("//input[@type='submit']")).click();
     driver.quit();
 }
