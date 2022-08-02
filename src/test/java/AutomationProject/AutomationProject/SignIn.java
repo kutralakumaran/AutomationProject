@@ -16,7 +16,7 @@ public void signin() {
 	driver.findElement(By.name("password")).sendKeys("abcdefg");
 	driver.findElement(By.xpath("//a[text()='Log In']")).click();
 	System.out.println();
-	System.out.println();
+
 	
 	
 }
