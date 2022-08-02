@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-02T14:06:12 IST" name="Default suite" finished-at="2022-08-02T14:06:17 IST" duration-ms="4131">
+  <suite started-at="2022-08-02T14:17:47 IST" name="Suite" finished-at="2022-08-02T14:17:53 IST" duration-ms="5851">
     <groups>
     </groups>
-    <test started-at="2022-08-02T14:06:12 IST" name="Default test" finished-at="2022-08-02T14:06:17 IST" duration-ms="4131">
+    <test started-at="2022-08-02T14:17:47 IST" name="Test" finished-at="2022-08-02T14:17:53 IST" duration-ms="5851">
+      <class name="AutomationProject.AutomationProject.HomePage">
+        <test-method signature="homepage()[pri:0, instance:AutomationProject.AutomationProject.HomePage@49c7b90e]" started-at="2022-08-02T14:17:47 IST" name="homepage" finished-at="2022-08-02T14:17:50 IST" duration-ms="3029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+      </class> <!-- AutomationProject.AutomationProject.HomePage -->
       <class name="AutomationProject.AutomationProject.SignUp">
-        <test-method signature="signup()[pri:0, instance:AutomationProject.AutomationProject.SignUp@3d5c822d]" started-at="2022-08-02T14:06:13 IST" name="signup" finished-at="2022-08-02T14:06:17 IST" duration-ms="4092" status="PASS">
+        <test-method signature="signup()[pri:0, instance:AutomationProject.AutomationProject.SignUp@4d465b11]" started-at="2022-08-02T14:17:50 IST" name="signup" finished-at="2022-08-02T14:17:53 IST" duration-ms="2783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signup -->
       </class> <!-- AutomationProject.AutomationProject.SignUp -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 
 public class Order {
 @Test
-public void Orders() {
+public void Orders() throws InterruptedException {
 	System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
 	WebDriver driver=new ChromeDriver();
 	driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
@@ -53,8 +53,9 @@ public void Orders() {
 	selii.selectByValue("0");
 	driver.findElement(By.id("gridCheck1")).click();
 	driver.findElement(By.xpath("//button[contains(text(),'Order Now')]")).click();
-	String order_messagedriver = driver.findElement(By.xpath("div[@class='modal-body']")).getText();
+	Thread.sleep(1000);
+	String order_messagedriver = driver.findElement(By.xpath("//div[@class='modal-body']")).getText();
 	System.out.println(order_messagedriver);
-	//Assert.assertEquals(order_messagedriver,"Your Order has been Placed Successfully!\nHappy Shopping.........");
+	Assert.assertEquals(order_messagedriver,"Your Order has been Placed Successfully!\nHappy Shopping.........");
 }
 }
