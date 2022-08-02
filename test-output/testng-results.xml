@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-01T22:31:47 IST" name="Default suite" finished-at="2022-08-01T22:31:51 IST" duration-ms="3643">
+  <suite started-at="2022-08-02T09:17:37 IST" name="Default suite" finished-at="2022-08-02T09:17:42 IST" duration-ms="4617">
     <groups>
     </groups>
-    <test started-at="2022-08-01T22:31:47 IST" name="Default test" finished-at="2022-08-01T22:31:51 IST" duration-ms="3643">
-      <class name="AutomationProject.AutomationProject.HomePages">
-        <test-method signature="homepage()[pri:0, instance:AutomationProject.AutomationProject.HomePages@4a7f959b]" started-at="2022-08-01T22:31:47 IST" name="homepage" finished-at="2022-08-01T22:31:51 IST" duration-ms="3600" status="PASS">
+    <test started-at="2022-08-02T09:17:37 IST" name="Default test" finished-at="2022-08-02T09:17:42 IST" duration-ms="4617">
+      <class name="AutomationProject.AutomationProject.SignIn">
+        <test-method signature="signin()[pri:0, instance:AutomationProject.AutomationProject.SignIn@3d5c822d]" started-at="2022-08-02T09:17:37 IST" name="signin" finished-at="2022-08-02T09:17:42 IST" duration-ms="4582" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homepage -->
-      </class> <!-- AutomationProject.AutomationProject.HomePages -->
+        </test-method> <!-- signin -->
+      </class> <!-- AutomationProject.AutomationProject.SignIn -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
