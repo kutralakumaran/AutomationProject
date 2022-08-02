@@ -12,6 +12,6 @@ public void allmobiles() {
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://mobileworld.azurewebsites.net/");
 	driver.findElement(By.xpath("//a[text()='All Mobiles']")).click();
-	
+	driver.findElement(By.id("myInput")).sendKeys("iphone");
 }
 }
