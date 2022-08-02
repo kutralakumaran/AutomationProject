@@ -7,10 +7,12 @@ import org.testng.annotations.Test;
 
 public class SignIn extends Webdriver{
 	
-	WebDriver driver;
+	
 @Test
 public void signin() {
-    
+	System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
+	WebDriver driver=new ChromeDriver();
+	driver.get("https://mobileworld.azurewebsites.net/");
 	driver.findElement(By.xpath("//button[text()='SIGN IN']")).click();
 	driver.findElement(By.id("username")).sendKeys("abcd@gmail.com");
 	driver.findElement(By.name("password")).sendKeys("abcdefg");
