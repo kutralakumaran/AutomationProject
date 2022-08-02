@@ -23,7 +23,7 @@ public class SignUp {
 		driver.findElement(By.xpath("(//input[@name='gender'])[1]")).click();
 		driver.findElement(By.xpath("//input[@placeholder='91XXXXXXXXXX']")).sendKeys("9856098560");
 		driver.findElement(By.xpath("//textarea[@placeholder='Short Bio']")).sendKeys("abcdefghijk");
-		driver.findElement(By.xpath("//button[text()='Sign In']")).click();
+		driver.findElement(By.xpath("//button[text()='Register']")).click();
 		String text=driver.switchTo().alert().getText();
 		System.out.println(text);
 		driver.switchTo().alert().accept();

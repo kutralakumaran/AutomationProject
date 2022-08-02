@@ -47,7 +47,14 @@ public void Orders() {
 	WebElement iphone = driver.findElement(By.xpath("(//select[@class='multi_select'])[3]"));
 	Select seli=new Select(iphone);
 	seli.selectByVisibleText("Apple 13 ");
-	driver.findElement(By.xpath("//input[@placeholder='no of mobiles']")).click();
-	
+	driver.findElement(By.xpath("//input[@placeholder='no of mobiles']")).sendKeys("2");
+	WebElement newcustomer = driver.findElement(By.id("bought"));
+	Select selii=new Select(newcustomer);
+	selii.selectByValue("0");
+	driver.findElement(By.id("gridCheck1")).click();
+	driver.findElement(By.xpath("//button[contains(text(),'Order Now')]")).click();
+	String order_messagedriver = driver.findElement(By.xpath("div[@class='modal-body']")).getText();
+	System.out.println(order_messagedriver);
+	//Assert.assertEquals(order_messagedriver,"Your Order has been Placed Successfully!\nHappy Shopping.........");
 }
 }
