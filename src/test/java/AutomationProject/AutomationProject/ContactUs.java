@@ -1,5 +1,6 @@
 package AutomationProject.AutomationProject;
 
+import java.util.Iterator;
 import java.util.Set;
 
 import org.openqa.selenium.By;
@@ -16,13 +17,15 @@ public void Contact() {
 	driver.get("https://mobileworld.azurewebsites.net/");
 	driver.findElement(By.xpath("//a[contains(text(),'Support')]")).click();
 	driver.findElement(By.xpath("(//a[contains(text(),'Contact Us')])[1]")).click();
-	Set<String> window = driver.getWindowHandles();
-	String parent = window.iterator().next();
-	String child = window.iterator().next();
+	Set<String> windows = driver.getWindowHandles();
+	Iterator<String> win = windows.iterator();
+	String parent = win.next();
+	String child = win.next();
     driver.switchTo().window(child);
     driver.findElement(By.name("name")).sendKeys("abcd");
     driver.findElement(By.name("email")).sendKeys("abcd@gmail.com");
     driver.findElement(By.name("phone")).sendKeys("9865098650");
-    
+    driver.findElement(By.name("message")).sendKeys("abcdefgh");
+    driver.findElement(By.xpath("//input[@type='submit']")).click();
 }
 }
