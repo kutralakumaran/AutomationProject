@@ -17,8 +17,8 @@ public static String[][] getData() {
 		XSSFWorkbook wb=new XSSFWorkbook(file);
 		XSSFSheet sheet = wb.getSheetAt(0);
 		int rowcount = sheet.getLastRowNum();
-		
-		  
+		sheet.getRow(0).getLastCellNum();
+		  System.out.println("row count"+rowcount)
 	} 
 	
 	catch (IOException e) {
