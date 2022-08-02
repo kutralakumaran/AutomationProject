@@ -27,6 +27,6 @@ public void Contact() {
     driver.findElement(By.name("phone")).sendKeys("9865098650");
     driver.findElement(By.name("message")).sendKeys("abcdefgh");
     driver.findElement(By.xpath("//input[@type='submit']")).click();
-    driver.close();
+    driver.quit();
 }
 }

@@ -57,5 +57,7 @@ public void Orders() throws InterruptedException {
 	String order_messagedriver = driver.findElement(By.xpath("//div[@class='modal-body']")).getText();
 	System.out.println(order_messagedriver);
 	Assert.assertEquals(order_messagedriver,"Your Order has been Placed Successfully!\nHappy Shopping.........");
+	driver.findElement(By.xpath("//a[text()='Close']")).click();
+	driver.quit();
 }
 }
