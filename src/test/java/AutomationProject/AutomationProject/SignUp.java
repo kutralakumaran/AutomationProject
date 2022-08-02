@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class SignUp {
 
 	@Test
-	public static void signup() {
+	public static void signup() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://mobileworld.azurewebsites.net/");
@@ -19,6 +19,7 @@ public class SignUp {
 		driver.findElement(By.xpath("//input[@placeholder='Enter Email']")).sendKeys("abcd@gmail.com");
 		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("abcdefg");
 		driver.findElement(By.xpath("//input[@type='date']")).sendKeys("10202020");
+		//Thread.sleep(2000);
 		driver.findElement(By.xpath("(//input[@name='gender'])[1]")).click();
 		driver.findElement(By.xpath("//input[@placeholder='91XXXXXXXXXX']")).sendKeys("9856098560");
 		driver.findElement(By.xpath("//textarea[@placeholder='Short Bio']")).sendKeys("abcdefghijk");

@@ -5,14 +5,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class SignIn extends Webdrivers{
-	static {
-		
-	}
+public class SignIn extends Webdriver{
+	
+	WebDriver driver;
 @Test
 public void signin() {
- 
-	driver.get("https://mobileworld.azurewebsites.net/");
+    
 	driver.findElement(By.xpath("//button[text()='SIGN IN']")).click();
 	driver.findElement(By.id("username")).sendKeys("abcd@gmail.com");
 	driver.findElement(By.name("password")).sendKeys("abcdefg");
