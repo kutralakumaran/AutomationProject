@@ -1,17 +1,317 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-03T09:35:37 IST" name="Surefire suite" finished-at="2022-08-03T09:35:37 IST" duration-ms="58">
+  <suite started-at="2022-08-03T09:58:40 IST" name="Suite" finished-at="2022-08-03T09:59:37 IST" duration-ms="57092">
     <groups>
     </groups>
-    <test started-at="2022-08-03T09:35:37 IST" name="Surefire test" finished-at="2022-08-03T09:35:37 IST" duration-ms="58">
-      <class name="AutomationProject.AutomationProject.AppTest">
-        <test-method signature="shouldAnswerWithTrue()" started-at="2022-08-03T09:35:37 IST" name="shouldAnswerWithTrue" finished-at="2022-08-03T09:35:37 IST" duration-ms="7" status="PASS">
+    <test started-at="2022-08-03T09:58:40 IST" name="Test" finished-at="2022-08-03T09:59:37 IST" duration-ms="57092">
+      <class name="AutomationProject.AutomationProject.AllMobiles">
+        <test-method signature="allmobiles()[pri:0, instance:AutomationProject.AutomationProject.AllMobiles@7714e963]" started-at="2022-08-03T09:58:40 IST" name="allmobiles" finished-at="2022-08-03T09:58:51 IST" duration-ms="10073" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldAnswerWithTrue -->
-      </class> <!-- AutomationProject.AutomationProject.AppTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+        </test-method> <!-- allmobiles -->
+      </class> <!-- AutomationProject.AutomationProject.AllMobiles -->
+      <class name="AutomationProject.AutomationProject.ContactUs">
+        <test-method signature="Contact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AutomationProject.AutomationProject.ContactUs@359f7cdf]" started-at="2022-08-03T09:59:29 IST" name="Contact" data-provider="contact" finished-at="2022-08-03T09:59:34 IST" duration-ms="4395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcd@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9865098650]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hi,hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contact -->
+        <test-method signature="Contact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AutomationProject.AutomationProject.ContactUs@359f7cdf]" started-at="2022-08-03T09:59:34 IST" name="Contact" data-provider="contact" finished-at="2022-08-03T09:59:37 IST" duration-ms="3677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qwer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwer@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7865078650]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hellooo!!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contact -->
+      </class> <!-- AutomationProject.AutomationProject.ContactUs -->
+      <class name="AutomationProject.AutomationProject.Order">
+        <test-method signature="Orders(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AutomationProject.AutomationProject.Order@40ef3420]" started-at="2022-08-03T09:58:58 IST" name="Orders" data-provider="order" finished-at="2022-08-03T09:59:11 IST" duration-ms="12849" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abcd@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9865098650]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1-123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[M.G road]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[bengaluru]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[560002]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Orders -->
+        <test-method signature="Orders(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AutomationProject.AutomationProject.Order@40ef3420]" started-at="2022-08-03T09:59:11 IST" name="Orders" data-provider="order" finished-at="2022-08-03T09:59:25 IST" duration-ms="13331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qwer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qwer@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[qwerrr]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7865078650]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2-454]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Manyata]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[bengaluru]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[560043]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Orders -->
+      </class> <!-- AutomationProject.AutomationProject.Order -->
+      <class name="AutomationProject.AutomationProject.SignUp">
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AutomationProject.AutomationProject.SignUp@479d31f3]" started-at="2022-08-03T09:58:53 IST" name="signup" data-provider="signup" finished-at="2022-08-03T09:58:55 IST" duration-ms="2811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abcd@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10102020]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9865098650]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[hi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AutomationProject.AutomationProject.SignUp@479d31f3]" started-at="2022-08-03T09:58:55 IST" name="signup" data-provider="signup" finished-at="2022-08-03T09:58:58 IST" duration-ms="2975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qwer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qwer@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[qwerrr]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[02252022]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9865098650]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+      </class> <!-- AutomationProject.AutomationProject.SignUp -->
+      <class name="AutomationProject.AutomationProject.HomePages">
+        <test-method signature="homepage()[pri:0, instance:AutomationProject.AutomationProject.HomePages@333291e3]" started-at="2022-08-03T09:58:51 IST" name="homepage" finished-at="2022-08-03T09:58:53 IST" duration-ms="2003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+      </class> <!-- AutomationProject.AutomationProject.HomePages -->
+      <class name="AutomationProject.AutomationProject.SignIn">
+        <test-method is-config="true" signature="drivers()[pri:0, instance:AutomationProject.AutomationProject.SignIn@795cd85e]" started-at="2022-08-03T09:59:25 IST" name="drivers" finished-at="2022-08-03T09:59:26 IST" duration-ms="1910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drivers -->
+        <test-method signature="signin(java.lang.String,java.lang.String)[pri:0, instance:AutomationProject.AutomationProject.SignIn@795cd85e]" started-at="2022-08-03T09:59:26 IST" name="signin" data-provider="mobile" finished-at="2022-08-03T09:59:27 IST" duration-ms="428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[efgh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method is-config="true" signature="drivers()[pri:0, instance:AutomationProject.AutomationProject.SignIn@795cd85e]" started-at="2022-08-03T09:59:27 IST" name="drivers" finished-at="2022-08-03T09:59:29 IST" duration-ms="1911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drivers -->
+        <test-method signature="signin(java.lang.String,java.lang.String)[pri:0, instance:AutomationProject.AutomationProject.SignIn@795cd85e]" started-at="2022-08-03T09:59:29 IST" name="signin" data-provider="mobile" finished-at="2022-08-03T09:59:29 IST" duration-ms="654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qwerty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwertyui23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+      </class> <!-- AutomationProject.AutomationProject.SignIn -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

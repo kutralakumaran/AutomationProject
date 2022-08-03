@@ -60,9 +60,9 @@ public void Orders(String first_name,String second_name,String email,String pass
 	driver.findElement(By.id("gridCheck1")).click();
 	driver.findElement(By.xpath("//button[contains(text(),'Order Now')]")).click();
 	Thread.sleep(1000);
-	String order_messagedriver = driver.findElement(By.xpath("//div[@class='modal-body']")).getText();
+	String order_messagedriver =driver.findElement(By.xpath("//div[@class='modal-body']")).getText();                                                                                                                                                                                                                                                                                                                                                                                                                                  
 	System.out.println(order_messagedriver);
-	AssertJUnit.assertEquals(order_messagedriver,"Your Order has been Placed Successfully!\nHappy Shopping.........");
+	Assert.assertEquals(order_messagedriver,"Your Order has been Placed Successfully!\nHappy Shopping.........");
 	driver.findElement(By.xpath("//a[text()='Close']")).click();
 	driver.quit();
 }
