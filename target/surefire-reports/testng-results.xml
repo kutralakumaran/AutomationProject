@@ -2,18 +2,18 @@
 <testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-03T09:58:40 IST" name="Suite" finished-at="2022-08-03T09:59:37 IST" duration-ms="57092">
+  <suite started-at="2022-08-03T21:39:58 IST" name="Suite" finished-at="2022-08-03T21:41:18 IST" duration-ms="80005">
     <groups>
     </groups>
-    <test started-at="2022-08-03T09:58:40 IST" name="Test" finished-at="2022-08-03T09:59:37 IST" duration-ms="57092">
+    <test started-at="2022-08-03T21:39:58 IST" name="Test" finished-at="2022-08-03T21:41:18 IST" duration-ms="80005">
       <class name="AutomationProject.AutomationProject.AllMobiles">
-        <test-method signature="allmobiles()[pri:0, instance:AutomationProject.AutomationProject.AllMobiles@7714e963]" started-at="2022-08-03T09:58:40 IST" name="allmobiles" finished-at="2022-08-03T09:58:51 IST" duration-ms="10073" status="PASS">
+        <test-method signature="allmobiles()[pri:0, instance:AutomationProject.AutomationProject.AllMobiles@393671df]" started-at="2022-08-03T21:39:58 IST" name="allmobiles" finished-at="2022-08-03T21:40:15 IST" duration-ms="16840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allmobiles -->
       </class> <!-- AutomationProject.AutomationProject.AllMobiles -->
       <class name="AutomationProject.AutomationProject.ContactUs">
-        <test-method signature="Contact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AutomationProject.AutomationProject.ContactUs@359f7cdf]" started-at="2022-08-03T09:59:29 IST" name="Contact" data-provider="contact" finished-at="2022-08-03T09:59:34 IST" duration-ms="4395" status="PASS">
+        <test-method signature="Contact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AutomationProject.AutomationProject.ContactUs@4f6ee6e4]" started-at="2022-08-03T21:41:08 IST" name="Contact" data-provider="contact" finished-at="2022-08-03T21:41:13 IST" duration-ms="5319" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Contact -->
-        <test-method signature="Contact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AutomationProject.AutomationProject.ContactUs@359f7cdf]" started-at="2022-08-03T09:59:34 IST" name="Contact" data-provider="contact" finished-at="2022-08-03T09:59:37 IST" duration-ms="3677" status="PASS">
+        <test-method signature="Contact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AutomationProject.AutomationProject.ContactUs@4f6ee6e4]" started-at="2022-08-03T21:41:13 IST" name="Contact" data-provider="contact" finished-at="2022-08-03T21:41:18 IST" duration-ms="5059" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,7 +67,7 @@
         </test-method> <!-- Contact -->
       </class> <!-- AutomationProject.AutomationProject.ContactUs -->
       <class name="AutomationProject.AutomationProject.Order">
-        <test-method signature="Orders(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AutomationProject.AutomationProject.Order@40ef3420]" started-at="2022-08-03T09:58:58 IST" name="Orders" data-provider="order" finished-at="2022-08-03T09:59:11 IST" duration-ms="12849" status="PASS">
+        <test-method signature="Orders(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AutomationProject.AutomationProject.Order@6e171cd7]" started-at="2022-08-03T21:40:28 IST" name="Orders" data-provider="order" finished-at="2022-08-03T21:40:44 IST" duration-ms="15961" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,7 +123,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Orders -->
-        <test-method signature="Orders(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AutomationProject.AutomationProject.Order@40ef3420]" started-at="2022-08-03T09:59:11 IST" name="Orders" data-provider="order" finished-at="2022-08-03T09:59:25 IST" duration-ms="13331" status="PASS">
+        <test-method signature="Orders(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AutomationProject.AutomationProject.Order@6e171cd7]" started-at="2022-08-03T21:40:44 IST" name="Orders" data-provider="order" finished-at="2022-08-03T21:41:00 IST" duration-ms="15968" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -181,7 +181,7 @@
         </test-method> <!-- Orders -->
       </class> <!-- AutomationProject.AutomationProject.Order -->
       <class name="AutomationProject.AutomationProject.SignUp">
-        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AutomationProject.AutomationProject.SignUp@479d31f3]" started-at="2022-08-03T09:58:53 IST" name="signup" data-provider="signup" finished-at="2022-08-03T09:58:55 IST" duration-ms="2811" status="PASS">
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AutomationProject.AutomationProject.SignUp@498d318c]" started-at="2022-08-03T21:40:18 IST" name="signup" data-provider="signup" finished-at="2022-08-03T21:40:23 IST" duration-ms="5103" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -222,7 +222,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signup -->
-        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AutomationProject.AutomationProject.SignUp@479d31f3]" started-at="2022-08-03T09:58:55 IST" name="signup" data-provider="signup" finished-at="2022-08-03T09:58:58 IST" duration-ms="2975" status="PASS">
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AutomationProject.AutomationProject.SignUp@498d318c]" started-at="2022-08-03T21:40:23 IST" name="signup" data-provider="signup" finished-at="2022-08-03T21:40:28 IST" duration-ms="4991" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -265,17 +265,17 @@
         </test-method> <!-- signup -->
       </class> <!-- AutomationProject.AutomationProject.SignUp -->
       <class name="AutomationProject.AutomationProject.HomePages">
-        <test-method signature="homepage()[pri:0, instance:AutomationProject.AutomationProject.HomePages@333291e3]" started-at="2022-08-03T09:58:51 IST" name="homepage" finished-at="2022-08-03T09:58:53 IST" duration-ms="2003" status="PASS">
+        <test-method signature="homepage()[pri:0, instance:AutomationProject.AutomationProject.HomePages@40ef3420]" started-at="2022-08-03T21:40:15 IST" name="homepage" finished-at="2022-08-03T21:40:18 IST" duration-ms="2884" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepage -->
       </class> <!-- AutomationProject.AutomationProject.HomePages -->
       <class name="AutomationProject.AutomationProject.SignIn">
-        <test-method is-config="true" signature="drivers()[pri:0, instance:AutomationProject.AutomationProject.SignIn@795cd85e]" started-at="2022-08-03T09:59:25 IST" name="drivers" finished-at="2022-08-03T09:59:26 IST" duration-ms="1910" status="PASS">
+        <test-method is-config="true" signature="drivers()[pri:0, instance:AutomationProject.AutomationProject.SignIn@f5ac9e4]" started-at="2022-08-03T21:41:00 IST" name="drivers" finished-at="2022-08-03T21:41:03 IST" duration-ms="2885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drivers -->
-        <test-method signature="signin(java.lang.String,java.lang.String)[pri:0, instance:AutomationProject.AutomationProject.SignIn@795cd85e]" started-at="2022-08-03T09:59:26 IST" name="signin" data-provider="mobile" finished-at="2022-08-03T09:59:27 IST" duration-ms="428" status="PASS">
+        <test-method signature="signin(java.lang.String,java.lang.String)[pri:0, instance:AutomationProject.AutomationProject.SignIn@f5ac9e4]" started-at="2022-08-03T21:41:03 IST" name="signin" data-provider="mobile" finished-at="2022-08-03T21:41:04 IST" duration-ms="1002" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -291,11 +291,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signin -->
-        <test-method is-config="true" signature="drivers()[pri:0, instance:AutomationProject.AutomationProject.SignIn@795cd85e]" started-at="2022-08-03T09:59:27 IST" name="drivers" finished-at="2022-08-03T09:59:29 IST" duration-ms="1911" status="PASS">
+        <test-method is-config="true" signature="drivers()[pri:0, instance:AutomationProject.AutomationProject.SignIn@f5ac9e4]" started-at="2022-08-03T21:41:04 IST" name="drivers" finished-at="2022-08-03T21:41:06 IST" duration-ms="2732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drivers -->
-        <test-method signature="signin(java.lang.String,java.lang.String)[pri:0, instance:AutomationProject.AutomationProject.SignIn@795cd85e]" started-at="2022-08-03T09:59:29 IST" name="signin" data-provider="mobile" finished-at="2022-08-03T09:59:29 IST" duration-ms="654" status="PASS">
+        <test-method signature="signin(java.lang.String,java.lang.String)[pri:0, instance:AutomationProject.AutomationProject.SignIn@f5ac9e4]" started-at="2022-08-03T21:41:06 IST" name="signin" data-provider="mobile" finished-at="2022-08-03T21:41:08 IST" duration-ms="1133" status="PASS">
           <params>
             <param index="0">
               <value>

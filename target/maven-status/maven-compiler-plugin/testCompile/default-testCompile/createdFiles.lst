@@ -1,0 +1,12 @@
+AutomationProject\AutomationProject\AllMobiles.class
+dProvider\SignUpDP.class
+AutomationProject\AutomationProject\HomePages.class
+dProvider\SignInDP.class
+AutomationProject\AutomationProject\SignIn.class
+AutomationProject\AutomationProject\SignUp.class
+AutomationProject\AutomationProject\Webdriver.class
+AutomationProject\AutomationProject\Generic.class
+AutomationProject\AutomationProject\Order.class
+dProvider\OrderMobile.class
+AutomationProject\AutomationProject\ContactUs.class
+dProvider\Cont.class
