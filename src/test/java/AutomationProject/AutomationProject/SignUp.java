@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 public class SignUp {
 
 	@Test(dataProvider = "signup",dataProviderClass = SignUpDP.class)
-	public static void signup(String first_name,String last_name,String email_id,String password,String date,String mobile,String bio) throws InterruptedException {
+	public static void signup(String first_name,String last_name,String email_id,String password,String date,String mobile,String bio) {
 		System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);

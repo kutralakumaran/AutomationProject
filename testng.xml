@@ -3,11 +3,11 @@
 <suite name="Suite">
   <test thread-count="6" name="Test">
     <classes>
-      <class name="AutomationProject.AutomationProject.AllMobiles"/>
       <class name="AutomationProject.AutomationProject.HomePages"/>
       <class name="AutomationProject.AutomationProject.SignUp"/>
-      <class name="AutomationProject.AutomationProject.Order"/>
       <class name="AutomationProject.AutomationProject.SignIn"/>
+      <class name="AutomationProject.AutomationProject.Order"/>
+       <class name="AutomationProject.AutomationProject.AllMobiles"/>
       <class name="AutomationProject.AutomationProject.ContactUs"/>
     </classes>
   </test> <!-- Test -->
